@@ -6,8 +6,8 @@ export let PROXY_CODE_SECRET = 'Easy-Reverse-Proxy'; // 代理码密钥
 // 代理
 export let PROXIES: Proxy[] = [
   {
-    domain: string; // 域名
-    url: string; // 网址
+    domain: "www.yikoc.com"; // 域名
+    url: "https://www.bing.com"; // 网址
     enable: boolean; // 开启
     template?: Template; // 模板
   }
