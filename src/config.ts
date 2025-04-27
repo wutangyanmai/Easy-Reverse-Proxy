@@ -6,6 +6,6 @@ export interface Proxy {
 export let PROXIES: Proxy[] = [
   {
     domain: "easy-reverse-proxy-ecru.vercel.app",
-    url: "https://www.bing.com"
+    url: "https://www.google.com"
   }
 ];
